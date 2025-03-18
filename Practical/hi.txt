@@ -13,3 +13,20 @@ pk = pk + 2dy -2dx
 x=x+1
 y= y+1
 repeat dx times
+
+
+------Bresenham circle drawing-------
+step 1:
+x= 0
+y= r
+Pk = 3-2r
+if pk is -:
+pk= pk+4x+6
+x= x+1
+y= y 
+
+if pk is +:
+pk = pk+ 4(x-y) + 10
+x=x+1
+y=y-1 
+repeat until x<=y
