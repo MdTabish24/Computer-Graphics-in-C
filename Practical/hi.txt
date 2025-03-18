@@ -1,1 +1,15 @@
-
+---- Bresenham steps -----
+step 1:
+calculate dx, dy. 
+step 2:
+pk = 2dy-dx
+step 3:
+if pk is -:
+pk = pk+2dy
+X = X+1
+y= y
+if pk is +:
+pk = pk + 2dy -2dx
+x=x+1
+y= y+1
+repeat dx times
