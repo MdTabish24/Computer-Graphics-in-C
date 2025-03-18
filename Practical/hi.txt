@@ -30,3 +30,20 @@ pk = pk+ 4(x-y) + 10
 x=x+1
 y=y-1 
 repeat until x<=y
+
+--------mid point circle drawing----- 
+step 1:
+x=0 
+y= r 
+step 2:
+pk = 1-r
+step 3:
+if pk is -:
+pk = pk + 2x +1
+x= x+1
+y=y 
+if pk is +:
+pk = pk + 2x - 2y + 1
+x= x+1
+y= y+1
+repeat till x<=y 
